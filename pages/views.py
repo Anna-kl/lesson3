@@ -10,4 +10,8 @@ class HomePageView(ListView):
 class AboutPageView(TemplateView):
         template_name = 'about.html'
 
+
+class AboutPageView1(TemplateView):
+    template_name = 'about.html'
+
 # Create your views here.
